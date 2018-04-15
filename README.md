@@ -18,3 +18,7 @@ Epicenter Podcast
 [YouTube 221 - Greg Meredith & Nash Foster: RChain – The Scalable, Concurrent and Performant Blockchain](https://www.youtube.com/watch?v=kojlx2ykRsA)
 
 [YouTube Introduction Rholang Devcon 1](https://www.youtube.com/watch?v=7tW1fAWg6s8)
+
+## Current best reference for the spec - we use the test framework to understand the language-spec
+
+[LINK TO TESTS in V2.1](https://github.com/rchain/rchain/tree/b23ab1c290aeb113b078db9c8d52a1124402c69f/rholang/examples)
