@@ -1,0 +1,11 @@
+contract @"bet"(p1, p2, game, amt) = {
+  for (@pmt1, win1, lose1 <- p1;
+       @pmt2, win2, lose2 <- p2 ) { 
+   match pmt {
+	case "hello" => {1}
+	} 
+}
+|
+new myChannel in {
+  @"bet"!(*myChannel)
+}

@@ -1,4 +1,7 @@
-Chain-Glossary
+﻿Welcome to the RCHain glossary
+
+
+# RChain-Glossary
 
 ## Official Links
 

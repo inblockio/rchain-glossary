@@ -1,0 +1,6 @@
+contract @"HelloWorld"(return) = {
+	return!("Hello, World!")
+} | new myChannel in {
+	for (x <- myChannel) { @"debug"!(*x) }
+	| @"HelloWorld"!(*myChannel)
+}

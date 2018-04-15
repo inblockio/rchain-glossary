@@ -1,0 +1,6 @@
+contract @"HelloAgain"(system) = {
+    system!("print", "Hello again, world!")
+} | new chan in {
+  @"HelloAgain"!(*chan)
+}
+
