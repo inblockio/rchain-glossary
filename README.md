@@ -1,6 +1,5 @@
-Welcome to the RCHain glossary
+﻿Welcome to the RCHain glossary
 
-test
 
 # RChain-Glossary
 
