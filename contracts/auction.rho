@@ -19,7 +19,3 @@ contract @"Bet"(p1, p2, game, amt) = {
 		}
 	}
 }
-|
-new myChannel in {
-	@"Bet"!(*myChannel)
-}
