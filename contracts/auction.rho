@@ -19,3 +19,9 @@ contract @"Bet"(p1, p2, game, amt) = {
 		}
 	}
 }
+| new fred, john, game in {
+	@"Bet"!(*fred, *john, *game, 10)
+	| fred!(10, "fredWin", "fredLose")
+	| john!(10, "johnWin", "johnLose")
+	| game!("red")
+}
