@@ -1,0 +1,6 @@
+contract @"Channel-One"(return) = {
+  return!("Hello, World!")
+} |
+new myChannel in {
+  @"Channel-One"!(*myChannel)
+}
