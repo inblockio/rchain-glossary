@@ -25,3 +25,9 @@ Epicenter Podcast
 ## Current best reference for the spec - we use the test framework to understand the language-spec
 
 [LINK TO TESTS in V2.1](https://github.com/rchain/rchain/tree/master/rholang/examples/linking/v0.2)
+
+Grammer Link TBD (Discord Link from TB)
+
+## Architecture
+
+  * [rspace](https://github.com/rchain/rchain/tree/master/rspace)
