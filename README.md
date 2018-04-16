@@ -22,6 +22,9 @@ docker run -it --mount type=bind,source="$(pwd)/contracts",target=/tmp rchain/rn
 
 ## Run a contract in contracts folder
 
+> Please take care that the bin script needs to be executed from the root of the folder:
+
+
 ```
 bin/run-contract.sh <CONTRACT_NAME>
 ```
@@ -39,6 +42,7 @@ bin/run-contract.sh stdoutAck.rho
 [Developer.RChain.Coop](https://developer.rchain.coop/)
 
 * [QuickLink Rholang Specification](https://developer.rchain.coop/rholang-spec-0.2.pdf)
+* [Rholang in 5mins](https://www.youtube.com/watch?v=4iN6RZ3EYAg)
 * [QuickLink Rholang Tuturial](https://developer.rchain.coop/tutorial)
 
 ## Media Links
@@ -57,7 +61,7 @@ Epicenter Podcast
 
 [LINK TO TESTS in V2.1](https://github.com/rchain/rchain/tree/master/rholang/examples/linking/v0.2)
 
-Grammer Link TBD (Discord Link from TB)
+[Rholang Grammer](https://github.com/rchain/rchain/blob/master/rholang/src/main/bnfc/rholang_mercury.cf)
 
 ## Architecture
 
