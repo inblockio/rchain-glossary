@@ -3,6 +3,29 @@
 
 # RChain-Glossary
 
+## Prerequisites
+
+Install the rchain/rnode Docker container: [Releases](https://github.com/rchain/rchain/releases)
+
+The following versions worked:
+
+```
+latest: sha256:d3957babab4995a4a63f0ca2708fd2c054fe4e23c06c26ce5dc4b19aeaf715aa
+dev: sha256:6721561afd3953fba3f10b05dd3be459147bed1d1a9445db52c6fb7f7abec778
+```
+
+## Run a contract in contracts folder
+
+```
+bin/run-contract.sh <CONTRACT_NAME>
+```
+
+For example:
+
+```
+bin/run-contract.sh stdoutAck.rho
+```
+
 ## Official Links
 
 [Official RChain Coop Website](https://www.rchain.coop/)
