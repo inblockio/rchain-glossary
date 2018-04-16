@@ -30,4 +30,4 @@ Grammer Link TBD (Discord Link from TB)
 
 ## Architecture
 
-  * [rspace](https://github.com/rchain/rchain/tree/master/rspace)
+  * [Storage Layer - rspace](https://github.com/rchain/rchain/tree/master/rspace)
