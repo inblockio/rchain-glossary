@@ -1,2 +1,0 @@
-(let [[helloWorld (generateFresh "helloWorld")]] (block ( (proc [] (run (compile (let [[[[Rholang450cbe837a47] [[Rholangec000c101f3b]]] (consume t [helloWorld] [**wildcard**] [['name]] #t)]] ( (proc [[name]] ( display "Hello, " name "!
-")) [Rholangec000c101f3b])))))) (produce t helloWorld **wildcard** "Joe")))
