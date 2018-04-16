@@ -33,6 +33,7 @@ bin/run-contract.sh stdoutAck.rho
 [Developer.RChain.Coop](https://developer.rchain.coop/)
 
 * [QuickLink Rholang Specification](https://developer.rchain.coop/rholang-spec-0.2.pdf)
+* [Rholang in 5mins](https://www.youtube.com/watch?v=4iN6RZ3EYAg)
 * [QuickLink Rholang Tuturial](https://developer.rchain.coop/tutorial)
 
 ## Media Links
