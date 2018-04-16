@@ -1,4 +1,4 @@
-contract @"MailingList"(mailbox) = {
+contract @"MailingList"(mailbox, return) = {
 	new subscribers in {
 		subscribers!([])
 		| for (message <= mailbox) {
@@ -7,10 +7,41 @@ contract @"MailingList"(mailbox) = {
 						match lst {
 							[head, tail] => {
 								@head!(*message)
+								| loop!(tail)
 							}
 						}
-					} | loop!(*subscribers)
+					}
+					| for (actual <- subscribers) {
+						loop!(*actual)
+					}
 				}
+		}
+		| new subscribe in {
+			contract subscribe(@account, finishedSubscribe) = {
+				for (tail <- subscribers) {
+					subscribers!([account, *tail])
+					| finishedSubscribe!(1)
+				}
+			}
+			| return!(*subscribe)
 		}
 	}
 }
+| new subscribeChannel in {
+	for (subscribeMethod <- subscribeChannel) {
+		 	subscribeMethod!("glen", "glenFin")
+			|	subscribeMethod!("jane", "janeFin")
+			|	subscribeMethod!("rocket", "rocketFin")
+			|	subscribeMethod!("moin", "moinFin")
+			|	subscribeMethod!("denver", "denverFin")
+			| for (glenDone <- @"glenFin";
+			janeDone <- @"janeFin";
+			rocketDone <- @"rocketFin";
+			moinDone <- @"moinFin";
+			denverDone <- @"denverFin") {
+				@"us@rchain"!("hello rchain")
+			}
+	}
+	|@"MailingList"!("us@rchain", *subscribeChannel)
+}
+
