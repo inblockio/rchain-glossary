@@ -24,4 +24,4 @@ Epicenter Podcast
 
 ## Current best reference for the spec - we use the test framework to understand the language-spec
 
-[LINK TO TESTS in V2.1](https://github.com/rchain/rchain/tree/b23ab1c290aeb113b078db9c8d52a1124402c69f/rholang/examples)
+[LINK TO TESTS in V2.1](https://github.com/rchain/rchain/tree/master/rholang/examples/linking/v0.2)
