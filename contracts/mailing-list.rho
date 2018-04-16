@@ -1,0 +1,16 @@
+contract @"MailingList"(mailbox) = {
+	new subscribers in {
+		subscribers!([])
+		| for (message <= mailbox) {
+				new loop in {
+					contract loop(@lst) = {
+						match lst {
+							[head, tail] => {
+								@head!(*message)
+							}
+						}
+					} | loop!(*subscribers)
+				}
+		}
+	}
+}
