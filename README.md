@@ -52,7 +52,7 @@ Epicenter Podcast
 
 [LINK TO TESTS in V2.1](https://github.com/rchain/rchain/tree/master/rholang/examples/linking/v0.2)
 
-Grammer Link TBD (Discord Link from TB)
+[Rholang Grammer](https://github.com/rchain/rchain/blob/master/rholang/src/main/bnfc/rholang_mercury.cf)
 
 ## Architecture
 
