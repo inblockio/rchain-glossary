@@ -14,6 +14,12 @@ latest: sha256:d3957babab4995a4a63f0ca2708fd2c054fe4e23c06c26ce5dc4b19aeaf715aa
 dev: sha256:6721561afd3953fba3f10b05dd3be459147bed1d1a9445db52c6fb7f7abec778
 ```
 
+Run this docker command in this repo directory:
+
+``` 
+docker run -it --mount type=bind,source="$(pwd)/contracts",target=/tmp rchain/rnode --eval /tmp/hello.rho   
+```
+
 ## Run a contract in contracts folder
 
 ```
@@ -38,6 +44,8 @@ bin/run-contract.sh stdoutAck.rho
 ## Media Links
 
 Epicenter Podcast
+
+[Write R-Chain Smart Contracts in 5 MINUTES!](https://www.youtube.com/watch?v=4iN6RZ3EYAg)
 
 [YouTube 154 – Greg Meredith: Rebuilding The Attention Economy From The Ground Up With Synereo](https://www.youtube.com/watch?v=0jRNSEt-D9A)
 
