@@ -1,0 +1,8 @@
+contract @"HelloWorld"(return) = {
+	return!(2*2)
+}
+|
+new myChannel in {
+	for (x <- myChannel) { @"debug"!((*x)+2) }
+	| @"HelloWorld"!(*myChannel)
+}
