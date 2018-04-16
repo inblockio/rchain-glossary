@@ -16,6 +16,9 @@ dev: sha256:6721561afd3953fba3f10b05dd3be459147bed1d1a9445db52c6fb7f7abec778
 
 ## Run a contract in contracts folder
 
+> Please take care that the bin script needs to be executed from the root of the folder:
+
+
 ```
 bin/run-contract.sh <CONTRACT_NAME>
 ```
