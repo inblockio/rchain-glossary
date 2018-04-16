@@ -2,7 +2,20 @@ contract @"Bet"(p1, p2, game, amt) = {
 	for (@pmt1, win1, lose1 <- p1;
 			 @pmt2, win2, lose2 <- p2) {
 		match pmt1 == *amt and pmt2 == *amt {
-			true => { 1 }
+			true => {
+				for (outcome <- game) {
+					match *outcome {
+						"red" => {
+							win1!(2* *amt)
+							| lose2!(0)
+						}
+						"blue" => {
+							win2!(2* *amt)
+							| lose1!(0)
+						}
+					}
+				}
+			}
 		}
 	}
 }
