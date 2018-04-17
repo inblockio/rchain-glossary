@@ -45,6 +45,10 @@ bin/run-contract.sh stdoutAck.rho
 * [Rholang in 5mins](https://www.youtube.com/watch?v=4iN6RZ3EYAg)
 * [QuickLink Rholang Tuturial](https://developer.rchain.coop/tutorial)
 
+## Context Introductions
+
+ * [Andreas Scheinert - Intro into functional programming](https://prezi.com/0x70lrux6mza/introduction-functional-programming/)
+
 ## Media Links
 
 Epicenter Podcast
