@@ -44,6 +44,7 @@ bin/run-contract.sh stdoutAck.rho
 * [QuickLink Rholang Specification](https://developer.rchain.coop/rholang-spec-0.2.pdf)
 * [Rholang in 5mins](https://www.youtube.com/watch?v=4iN6RZ3EYAg)
 * [QuickLink Rholang Tuturial](https://developer.rchain.coop/tutorial)
+* polyadic pi calculus: https://pdfs.semanticscholar.org/5d25/0a3a14f68abb1ae0111d35b8220b4472b277.pdf
 
 ## Context Introductions
 
